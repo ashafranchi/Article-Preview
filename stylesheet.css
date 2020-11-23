@@ -1,0 +1,91 @@
+body {
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+.attribution {
+    padding-top: 2%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.blurb {
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    grid-area: b;
+    padding-top: 2%;
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 1.5em;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-areas:
+    "k t"
+    "k b"
+    "k n";
+}
+
+.date {
+    padding-top: 8px;
+    padding-left: 16px;
+    color: hsl(212, 23%, 69%);
+}
+
+.drawers {
+    grid-area: k;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.name-info {
+    grid-area: n;
+    margin-left: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.person {
+    padding-top: 10px;
+    padding-left: 16px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.profile {
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.share {
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 20px;
+}
+
+.top-text{
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    font-size: 1.2rem;
+    grid-area: t;
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 8%;
+}
