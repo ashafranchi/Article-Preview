@@ -153,3 +153,80 @@
     margin-right: 10px;
     padding-top: 8%;
 }
+
+@media (max-width: 800px) {
+    .attribution {
+        padding-top: 3%;
+    }
+    .blurb {
+        color: hsl(214, 17%, 51%);
+        font-weight: 500;
+        font-size: 15px;
+        grid-area: b;
+        padding-top: 8%;
+        margin-left: 20px;
+        margin-right: 10px;
+        line-height: 1.5em;
+    }
+    .card {
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 90%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 35% 20% 20% 25%;
+        grid-template-areas:
+        "k"
+        "t"
+        "b"
+        "n";
+    }
+    .drawers {
+        grid-area: k;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .name-info {
+        padding-top: 6%;
+    }
+    .top-text{
+        padding-top: 8%;
+    }
+    .share-button {
+        margin-left: 40px;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: hsl(210, 46%, 95%);
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .share-wrapper {
+        display: none;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 560px;
+        left: 8px;
+        padding: 20px 66px 20px 66px;
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 0%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .share-wrapper-display {
+        display: flex;
+    }
+    .share-wrapper::after {
+        display: none;
+    }
+    
+}
