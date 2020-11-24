@@ -5,36 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <script src="/index.js"></script>
   <title> Asha Franchi | Article Preview</title>
 </head>
-<body>
+<body class="body">
   <div class="card">
     <img class="drawers" src="images/drawers.jpg" alt="Drawers" width="260" height="300">
-  <div class="top-text">
-    Shift the overall look and feel by adding these wonderful 
-    touches to furniture in your home
-  </div>
-
-<div class="blurb">
-    Ever been in a room and felt like something was missing? Perhaps 
-    it felt slightly bare and uninviting. I’ve got some simple tips 
-    to help you make any room feel complete.
-</div>
-
-<div class="name-info">
-  <img class="profile" src="images/avatar-michelle.jpg" alt="Michelle Profile Image" width="60" height="60">
-      <div class="background">
-  <div class="person">Michelle Appleton</div>
-      <div class="date">28 Jun 2020</div>
+    <div class="top-text">
+      Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home
     </div>
-      <img class="share" src="images/icon-share.svg" alt="Share" width="20" height="20">
-</div>
+
+    <div class="blurb">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+    </div>
+
+    <div class="name-info">
+      <img class="profile" src="images/avatar-michelle.jpg" alt="Michelle Profile Image" width="60" height="60">
+          <div class="background">
+      <div class="person">Michelle Appleton</div>
+          <div class="date">28 Jun 2020</div>
+    </div>
+      <button class="share-button" aria-label="Share button">
+        <img src="images/icon-share.svg" width=20 height=20>
+      </button>
+      <div class="share-wrapper">
+        <span class="share-label">Share</span>
+        <a class="share-link share-link--fb" href="https://www.facebook.com/">
+          <img src="images/icon-facebook.svg" alt="Facebook Icon">
+        </a>
+        <a class="share-link share-link--tw" href="https://twitter.com/">
+          <img src="images/icon-twitter.svg" alt="Twitter Icon">
+        </a>
+        <a class="share-link share-link--pin" href="https://www.pinterest.com/">
+          <img src="images/icon-pinterest.svg" alt="Pinterest Icon">
+        </a>
+      </div>
+  </div>
 </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://ashafranchi.com/">Asha Franchi</a>.
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>

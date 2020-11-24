@@ -1,16 +1,19 @@
-body {
+.body {
     font-size: 13px;
     font-family: "Manrope", sans-serif;
     background-color: hsl(210, 46%, 95%);
 }
 .attribution {
-    padding-top: 2%;
-    font-size: 11px;
+    padding-top: 1%;
+    font-size: 13px;
+    font-weight: 500;
     text-align: center;
+    color: hsl(217, 19%, 35%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(212, 23%, 69%);
+    text-decoration: none;
 }
 
 .blurb {
@@ -71,12 +74,73 @@ body {
     display: inline-block;
 }
 
-.share {
-    margin-top: 10px;
+.share-button {
     margin-left: 100px;
+    margin-top: 10px;
     padding: 10px;
     background-color: hsl(210, 46%, 95%);
     border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+  
+.share-button:hover,
+.share-button:active {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.share-button:hover,
+.share-button:active {
+    fill: #fff;
+}
+
+.share-label {
+    margin-right: 5px;
+    font-size: 13px;
+    letter-spacing: 0.5em;
+    color: hsl(212, 23%, 69%);
+    text-transform: uppercase;
+}
+  
+.share-link {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+  
+.share-link img {
+    width: 100%;
+    height: 100%;
+}
+  
+.share-wrapper {
+    display: none;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 284px;
+    left: 828px;
+    padding: 13px 35px 13px 40px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+
+.share-wrapper::after {
+    position: absolute;
+    bottom: -5px;
+    transform: rotate(45deg);
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.share-wrapper-display {
+    display: flex;
 }
 
 .top-text{
