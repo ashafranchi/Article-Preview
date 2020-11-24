@@ -21,7 +21,7 @@
     font-weight: 500;
     grid-area: b;
     padding-top: 4%;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 10px;
     line-height: 1.5em;
 }
@@ -32,7 +32,7 @@
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 48%;
     height: 300px;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -58,7 +58,7 @@
 
 .name-info {
     grid-area: n;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 0px;
     display: flex;
     flex-direction: row;
@@ -104,7 +104,6 @@
     font-size: 13px;
     letter-spacing: 0.5em;
     color: hsl(212, 23%, 69%);
-    text-transform: uppercase;
 }
   
 .share-link {
@@ -125,7 +124,7 @@
     align-items: center;
     position: absolute;
     top: 284px;
-    left: 828px;
+    left: 844px;
     padding: 13px 35px 13px 40px;
     background-color: hsl(217, 19%, 35%);
     border-radius: 10px;
@@ -151,7 +150,7 @@
     font-size: 1.2rem;
     grid-area: t;
     line-height: 1.5em;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 10px;
     padding-top: 8%;
 }
@@ -188,15 +187,18 @@
     }
     .drawers {
         grid-area: k;
+        width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
     }
     .name-info {
         padding-top: 6%;
+        margin-left: 20px;
     }
     .top-text{
         padding-top: 8%;
+        margin-left: 20px;
     }
     .share-button {
         margin-left: 40px;
